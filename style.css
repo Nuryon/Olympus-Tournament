@@ -42,8 +42,10 @@
   position: relative;
 }
 
+/* styles.css */
+
 .modal {
-  display: none; /* Masqué par défaut */
+  display: none; /* La modale est cachée par défaut */
   position: fixed;
   z-index: 1;
   left: 0;
@@ -54,18 +56,26 @@
   background-color: rgba(0, 0, 0, 0.4); /* Fond semi-transparent */
   justify-content: center;
   align-items: center;
-  display: flex; /* Assure que le flexbox est utilisé */
+  display: flex; /* Utilisation de flexbox pour centrer le contenu */
 }
 
-.modal-content {
-  background-color: #fff;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
-  max-width: 500px;
+/* index.css */
+
+/* Style pour le bouton de la modale */
+.modal-content button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
   border-radius: 5px;
-  position: relative; /* Pour positionner le bouton de fermeture */
+  cursor: pointer;
+}
+
+.modal-content button:hover {
+  background-color: #45a049;
 }
 
 .close {
@@ -82,4 +92,10 @@
 .close:focus {
   color: black;
   text-decoration: none;
+}
+
+
+.modal-content img {
+  height: 400px;
+  width: 200px;
 }

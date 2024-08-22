@@ -37,12 +37,12 @@
 <div class="container">
 
 </div>  <!-- La modale -->
-<div id="myModal" class="modal">
+<div id="myModal" class="modal" style="display: none;">
   <div class="modal-content">
-      <span class="close"><i class="fa-solid fa-xmark"></i></span>
-      <div id="modalBody">
-          <!-- Le contenu aléatoire sera ajouté ici -->
-      </div>
+      <span class="close">&times;</span>
+      <div id="modalBody"></div> <!-- Contenu dynamique de la modale -->
+      <button id="newItemBtn" >Reroll</button> <!-- Nouveau bouton -->
+      <button id="letsGoBtn" >Let's Go</button>
   </div>
 </div>
     <script src="./script.js"></script>
