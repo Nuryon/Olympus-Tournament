@@ -30,7 +30,25 @@ function updateModalContent() {
 function closeModal() {
     const modal = document.getElementById('myModal');
     if (modal) {
-        modal.style.display = 'none'; // Masquer la modale
+        modal.classList.remove('show'); // Retirer la classe d'animation d'ouverture
+        modal.classList.add('hide'); // Ajouter la classe d'animation de fermeture
+
+        // Retirer la modale complètement après l'animation
+        setTimeout(() => {
+            modal.style.display = 'none'; // Masquer la modale
+            modal.classList.remove('hide'); // Retirer la classe d'animation de fermeture
+        }, 300); // Durée de la transition en millisecondes
+    }
+}
+
+// Fonction pour afficher la modale
+function showModal() {
+    const modal = document.getElementById('myModal');
+    if (modal) {
+        modal.style.display = 'flex'; // Afficher la modale
+        setTimeout(() => {
+            modal.classList.add('show'); // Ajouter la classe d'animation d'ouverture
+        }, 10); // Petite pause pour s'assurer que le style d'affichage est appliqué
     }
 }
 
@@ -66,9 +84,7 @@ function generateGameItems() {
 }
 
 // Créer un bouton pour ouvrir la modale
-const button = document.createElement('button');
-button.textContent = 'Cliquez-moi';
-button.id = 'openModalBtn';
+const button = document.querySelector('.wrapper');
 const container = document.querySelector('.container');
 
 if (container) {
@@ -78,10 +94,7 @@ if (container) {
 // Ajouter un écouteur d'événement pour le bouton qui ouvre la modale
 button.addEventListener('click', () => {
     updateModalContent(); // Met à jour le contenu de la modale
-    const modal = document.getElementById('myModal');
-    if (modal) {
-        modal.style.display = 'flex'; // Affiche la modale
-    }
+    showModal(); // Affiche la modale avec animation
 });
 
 // Sélectionner les éléments de la modale
