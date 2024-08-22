@@ -1,3 +1,5 @@
+
+
 [
     {
         "id": "1",
@@ -17,7 +19,7 @@
     {
         "id": "4",
         "name": "Smash",
-        "src": "./assets/slider_img/smash"
+        "src": "./assets/slider_img/smash.webp"
     },
     {
         "id": "5",
