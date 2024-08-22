@@ -2,101 +2,101 @@
     {
         "id": "1",
         "name": "CSGO",
-        "src": "../assets/slider_img/CSGO.webp"
+        "src": "./assets/slider_img/CSGO.webp"
     },
     {
         "id": "2",
         "name": "NBA",
-        "src": "../assets/slider_img/NBA.webp"
+        "src": "./assets/slider_img/NBA.webp"
     },
     {
         "id": "3",
         "name": "RL",
-        "src": "../assets/slider_img/RL.webp"
+        "src": "./assets/slider_img/RL.webp"
     },
     {
         "id": "4",
         "name": "Smash",
-        "src": "../assets/slider_img/smash.webp"
+        "src": "./assets/slider_img/smash"
     },
     {
         "id": "5",
         "name": "BO2",
-        "src": "../assets/slider_img/bo2.webp"
+        "src": "./assets/slider_img/bo2.webp"
     },
     {
         "id": "6",
         "name": "AoE",
-        "src": "../assets/slider_img/aoe.webp"
+        "src": "./assets/slider_img/aoe.webp"
     },
     {
         "id": "7",
         "name": "LoL",
-        "src": "../assets/slider_img/lol.webp"
+        "src": "./assets/slider_img/lol.webp"
     },
     {
         "id": "8",
         "name": "Fall Guys",
-        "src": "../assets/slider_img/fallguys.webp"
+        "src": "./assets/slider_img/fallguys.webp"
     },
     {
         "id": "9",
         "name": "Pokemon",
-        "src": "../assets/slider_img/pokemon.webp"
+        "src": "./assets/slider_img/pokemon.webp"
     },
     {
         "id": "10",
         "name": "Hearthstone",
-        "src": "../assets/slider_img/hearthstone.webp"
+        "src": "./assets/slider_img/hearthstone.webp"
     },
     {
         "id": "11",
         "name": "F1",
-        "src": "../assets/slider_img/F1.webp"
+        "src": "./assets/slider_img/F1.webp"
     },
     {
         "id": "12",
         "name": "Mortal",
-        "src": "../assets/slider_img/Mortal.webp"
+        "src": "./assets/slider_img/Mortal.webp"
     },
     {
         "id": "13",
         "name": "Mario Bros",
-        "src": "../assets/slider_img/mario_bros.webp"
+        "src": "./assets/slider_img/mario_bros.webp"
     },
     {
         "id": "14",
         "name": "Storm",
-        "src": "../assets/slider_img/storm.webp"
+        "src": "./assets/slider_img/storm.webp"
     },
     {
         "id": "15",
         "name": "Minecraft",
-        "src": "../assets/slider_img/minecraft.webp"
+        "src": "./assets/slider_img/minecraft.webp"
     },
     {
         "id": "16",
         "name": "Fortnite",
-        "src": "../assets/slider_img/Fortnite.webp"
+        "src": "./assets/slider_img/Fortnite.webp"
     },
     {
         "id": "17",
         "name": "BO3",
-        "src": "../assets/slider_img/bo3.webp"
+        "src": "./assets/slider_img/bo3.webp"
     },
     {
         "id": "18",
         "name": "Pummel Party",
-        "src": "../assets/slider_img/pummel_party.webp"
+        "src": "./assets/slider_img/pummel_party.webp"
     },
     {
         "id": "19",
         "name": "FIFA",
-        "src": "../assets/slider_img/fifa.webp"
+        "src": "./assets/slider_img/fifa.webp"
     },
     {
         "id": "20",
         "name": "Apex",
-        "src": "../assets/slider_img/apex.webp"
+        "src": "./assets/slider_img/apex.webp"
     }
 ]
