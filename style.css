@@ -46,6 +46,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  bottom: 105px;
 }
 
 /* styles.css */
@@ -150,11 +152,12 @@
 }
 
 body {
-  height: 100vh;
+  height: 98vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: 0;
 }
 
 .wrapper {
