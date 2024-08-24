@@ -1,4 +1,10 @@
 /* styles.css */
+@font-face {
+  font-family: stars;
+  src: url('/fonts/Starjedi.ttf');
+}
+		
+
 
 .banner .slider .item {
   position: absolute;
@@ -6,6 +12,7 @@
   transform: 
   rotateY(calc( (var(--position) - 1) * (360 / var(--quantity)) * 1deg))
   translateZ(900px);
+  overflow: hidden
 }
 
 .banner .slider .item img {
@@ -33,6 +40,26 @@
       transform: perspective(1800px) rotateY(360deg);
   }
 }
+.mainTitle{
+position: absolute;
+top: 50px;
+color: white;
+font-size: 25px;  font-family: stars;
+
+  color: white; /* Couleur du texte */
+  text-shadow: 
+      -1px -1px 0px #45a049, /* Ombre en haut à gauche */
+      1px -1px 0px #45a049,  /* Ombre en haut à droite */
+      -1px 1px 0px #45a049,  /* Ombre en bas à gauche */
+      1px 1px 0px #45a049;   /* Ombre en bas à droite */
+
+}
+
+
+ 
+
+
+
 
 .banner {
   width: 100%;
